@@ -20,6 +20,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # external modules
     'rest_framework',
+    # internal apps
+    'drfecommerce.product',
 ]
 
 MIDDLEWARE = [
