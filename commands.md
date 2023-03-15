@@ -18,3 +18,18 @@ print(get_random_secret_key())
 #environment variables configuration
 from dotenv import load_dotenv
 load_dotenv()
+
+#pytest coverage
+pip install coverage
+pip install pytest-cov
+pytest
+coverage run -m pytest
+coverage html 
+pytest --cov
+
+
+#django spectacular
+pip install django-spectacular  
+pip install drf-spectacular
+python manage.py spectacular --file schema.yml
+
